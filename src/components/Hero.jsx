@@ -49,9 +49,12 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="mx-auto flex w-full max-w-7xl justify-center px-5 pb-10">
+      <div className="mx-auto flex w-full max-w-7xl justify-center gap-4 px-5 pb-10">
         <a href="#hero" className="pill-outline-light">
           Let&apos;s Talk <span className="ml-1 text-xl leading-none">↓</span>
+        </a>
+        <a href="/M_Torikal_Akbar_CV_Maganghub.pdf" download className="pill-outline-light">
+          Curriculum Vitae
         </a>
       </div>
     </section>
